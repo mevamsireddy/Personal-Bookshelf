@@ -1,0 +1,50 @@
+/* src/components/BookCard.css */
+.book-card {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.book-card img {
+  width: 128px;
+  height: 193px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.book-card .book-info {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.book-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.book-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.book-card .book-actions {
+  padding: 10px;
+}
+
+.book-card button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-card button:hover {
+  background-color: #555;
+}

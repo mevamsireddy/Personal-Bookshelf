@@ -1,0 +1,6 @@
+/* src/components/SearchResults.css */
+.search-results .results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+}
