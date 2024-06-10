@@ -25,7 +25,7 @@ const App = () => {
     <Router>
       <header>
         <Link to="/">
-          <h1>Bookshelf</h1>
+          <h1>BookShelf</h1>
         </Link>
         <nav>
           <Link to="/bookshelf">My Shelf</Link>
