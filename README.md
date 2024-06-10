@@ -25,39 +25,47 @@ Open your terminal and clone the repository using the following command:
 
 ```bash
 git clone https://github.com/your-username/my-bookshelf.git
+```
 Navigate to the Project Directory
 Change to the project directory:
+```bash
 cd my-bookshelf
+```
 Install Dependencies
 Install the project dependencies using npm or yarn:
+```bash
 npm install
 # or
 yarn install
+```
 Running the Application
 
 To start the application on your local machine, run the following command:
+```bash
 npm start
 # or
 yarn start
-
+```
 This will start the development server and open the application in your default web browser. The application will be available at http://localhost:3000.
 
 Building the Application
 To create a production build of the application, run:
+```bash
 npm run build
 # or
 yarn build
-
+```
 The build artifacts will be stored in the build directory.
 Linting and Formatting
 To check the code for linting errors, run:
+```bash
 npm run lint
 # or
 yarn lint
-
+```
 Project Structure
 Here is a brief overview of the project structure:
-
+```bash
 my-bookshelf/
 ├── public/
 │   ├── index.html
@@ -77,7 +85,7 @@ my-bookshelf/
 ├── package.json
 ├── README.md
 └── ...
-
+```
 Dependencies
 - React
 - React Router DOM
